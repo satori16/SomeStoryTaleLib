@@ -1,4 +1,4 @@
-#include "SomeStoryTaleLib.h"
+#include "lib/SomeStoryTaleLib.h"
 
 //main unit.
 
@@ -16,7 +16,7 @@ int main() {
 		SomeStoryTaler::Shower::Simple("いんぷっと？？");
 	}
 
-	SomeStoryTaler::Writer::WriteText(10, 10, "ほげらった。");
+	SomeStoryTaler::Shower::WithPosition::Text(10, 10, "ほげらった。");
 
 	return 0;
 
